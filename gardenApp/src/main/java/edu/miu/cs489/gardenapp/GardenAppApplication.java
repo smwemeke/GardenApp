@@ -2,6 +2,11 @@ package edu.miu.cs489.gardenapp;
 
 import edu.miu.cs489.gardenapp.model.Garden;
 import edu.miu.cs489.gardenapp.model.Plant;
+import edu.miu.cs489.gardenapp.repository.GardenRepository;
+import edu.miu.cs489.gardenapp.repository.PlantRepository;
+import edu.miu.cs489.gardenapp.service.GardenService;
+import edu.miu.cs489.gardenapp.service.PlantService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,7 +16,10 @@ import java.time.LocalDate;
 import java.util.List;
 
 @SpringBootApplication
+@RequiredArgsConstructor
 public class GardenAppApplication {
+	private final GardenService gardenService;
+	private final PlantService plantService;
 
 	public static void main(String[] args) {
 		SpringApplication.run(GardenAppApplication.class, args);
@@ -21,12 +29,14 @@ public class GardenAppApplication {
 	CommandLineRunner commandLineRunner(){
 			return args -> {
 
-				List<Garden> gardens = List.of(
-					new Garden("Patch", 50.2),
-					new Garden("Herb Garden", 20.0)
-                 );
+					Garden g1 = new Garden("Patch", 50.2);
+					Garden g2 = new Garden("Herb Garden", 20.0);
+                 List<Garden> gardens = List.of(g1, g2);
+				gardenService.addGarden(g1);
+				gardenService.addGarden(g2);
 
-				//Plant p1 = new Plant("Carrot", "Vegetable", LocalDate.now(),gardens.get(0));
+				Plant p1 = new Plant("Carrot", "Vegetable", LocalDate.now(),gardens);
+
 
 
 
