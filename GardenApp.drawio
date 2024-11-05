@@ -1,0 +1,67 @@
+<mxfile host="Electron" modified="2024-11-05T16:46:33.900Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="OaCmsSHqayLrONDUiCwU" version="22.1.2" type="device">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="-2296" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4HZmIFL1QDymiasSXzAP-2" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;Garden&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp;gardenId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; plantId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; type&lt;br&gt;&amp;nbsp; &amp;nbsp;size&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;double(20)&lt;br&gt;&amp;nbsp; &amp;nbsp;gardenName&amp;nbsp; &amp;nbsp;varchar(50)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="3585" y="120" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4HZmIFL1QDymiasSXzAP-3" value="" style="line;strokeWidth=1;direction=south;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3695" y="140" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4HZmIFL1QDymiasSXzAP-4" value="" style="line;strokeWidth=1;direction=south;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3615" y="140" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4HZmIFL1QDymiasSXzAP-5" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;Plant&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp;plantId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp;plantName&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;varchar(50)&lt;br&gt;&amp;nbsp; &amp;nbsp;type&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; varchar(50)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;plantDate&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; localDate&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;harvestDate&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;localDate" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="3580" y="420" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4HZmIFL1QDymiasSXzAP-6" value="" style="line;strokeWidth=1;direction=south;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3690" y="440" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4HZmIFL1QDymiasSXzAP-7" value="" style="line;strokeWidth=1;direction=south;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3610" y="440" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4HZmIFL1QDymiasSXzAP-8" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;Course&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp;userId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp;firstName&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;char(50)&lt;br&gt;&amp;nbsp; &amp;nbsp;lastName&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;char(50)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;phoneNumber&amp;nbsp; &amp;nbsp; &amp;nbsp; varchar(50)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;email&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; varchar(50)" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="4540" y="280" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4HZmIFL1QDymiasSXzAP-9" value="" style="line;strokeWidth=1;direction=south;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4650" y="300" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4HZmIFL1QDymiasSXzAP-10" value="" style="line;strokeWidth=1;direction=south;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4570" y="300" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4HZmIFL1QDymiasSXzAP-11" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;b&gt;Professor_Course&lt;/b&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp;gardenId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Integer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp; &amp;nbsp;plantId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Integer&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="3790" y="280" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4HZmIFL1QDymiasSXzAP-12" value="" style="line;strokeWidth=1;direction=south;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3910" y="300" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4HZmIFL1QDymiasSXzAP-13" value="" style="line;strokeWidth=1;direction=south;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3830" y="300" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sz1p_UwoU-37goIfICJM-2" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="4HZmIFL1QDymiasSXzAP-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="3720" y="500" as="sourcePoint" />
+            <mxPoint x="3790" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3550" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sz1p_UwoU-37goIfICJM-4" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=entityRelationEdgeStyle;entryX=0.821;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4HZmIFL1QDymiasSXzAP-11">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="3820" y="505" as="sourcePoint" />
+            <mxPoint x="4030" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sz1p_UwoU-37goIfICJM-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="3600" y="420" as="sourcePoint" />
+            <mxPoint x="3640" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

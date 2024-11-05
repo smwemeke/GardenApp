@@ -1,0 +1,10 @@
+Requirements Analysis
+
+Gardener
+	Login/out
+	Register new garden (name, size)
+	Register new plant (name, type, plantDate, harvestDate)
+	View gardens
+	View plants
+	Update both gardens and plants already in the system
+	Delete both gardens and plants in the system
