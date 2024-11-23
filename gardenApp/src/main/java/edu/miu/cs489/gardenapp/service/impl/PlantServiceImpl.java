@@ -32,6 +32,6 @@ public class PlantServiceImpl implements PlantService {
 
     @Override
     public List<Plant> getAllPlantsSortedByName() {
-        return plantRepository.findAll(Sort.by("name").ascending());
+        return null; //plantRepository.findAll(Sort.by("name").ascending());
     }
 }

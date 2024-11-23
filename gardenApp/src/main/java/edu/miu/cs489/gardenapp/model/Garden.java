@@ -20,30 +20,22 @@ public class Garden {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "garden_id")
     private Integer id;
-    private String gardenname;
+    private String gardenName;
     private double size;
-    @ManyToMany(fetch = FetchType.EAGER)
-            @JoinTable(
-                    name= "garden_plant",
-                    joinColumns = @JoinColumn(name="garden_id"),
-                    inverseJoinColumns = @JoinColumn(name ="plant_id")
-            )
+    @OneToMany(mappedBy = "garden")
     List<Plant> plants;
 
     public Garden(String gardenname, double size) {
-        this.gardenname = gardenname;
+        this.gardenName = gardenname;
         this.size = size;
     }
 
     @Override
     public String toString() {
         return "Garden{" +
-                "gardenname='" + gardenname + '\'' +
+                "gardenname='" + gardenName + '\'' +
                 ", size=" + size +
                 ", plants=" + plants +
                 '}';
     }
 }
-
-
-//

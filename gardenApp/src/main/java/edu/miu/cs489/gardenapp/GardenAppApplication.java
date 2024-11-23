@@ -18,12 +18,13 @@ import java.util.List;
 @SpringBootApplication
 @RequiredArgsConstructor
 public class GardenAppApplication {
+
 	private final GardenService gardenService;
 	private final PlantService plantService;
 
 	public static void main(String[] args) {
-		SpringApplication.run(GardenAppApplication.class, args);
-	}
+
+		SpringApplication.run(GardenAppApplication.class, args);	}
 
 	@Bean
 	CommandLineRunner commandLineRunner(){
@@ -31,11 +32,15 @@ public class GardenAppApplication {
 
 					Garden g1 = new Garden("Patch", 50.2);
 					Garden g2 = new Garden("Herb Garden", 20.0);
-                 List<Garden> gardens = List.of(g1, g2);
-				gardenService.addGarden(g1);
-				gardenService.addGarden(g2);
 
-				Plant p1 = new Plant("Carrot", "Vegetable", LocalDate.now(),gardens);
+					gardenService.addGarden(g1);
+					gardenService.addGarden(g2);
+
+				Plant p1 = new Plant("Carrot", "Vegetable", LocalDate.now(),g1);
+				Plant p2= new Plant("Potato", "Vegetable", LocalDate.now(),g2);
+
+				plantService.addPlant(p1);
+				plantService.addPlant(p2);
 
 
 

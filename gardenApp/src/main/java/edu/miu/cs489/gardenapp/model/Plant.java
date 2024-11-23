@@ -22,15 +22,15 @@ public class Plant {
     private String plantName;
     private String plantType;
     private LocalDate plantDate;
-    private LocalDate harvestDate;
-    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "plants")
-    private List<Garden> gardens;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "garden_id")
+    private Garden garden;
 
-    public Plant(String plantName, String plantType, LocalDate plantDate, List<Garden> gardens) {
+    public Plant(String plantName, String plantType, LocalDate plantDate, Garden garden) {
         this.plantName = plantName;
         this.plantType = plantType;
         this.plantDate = plantDate;
-        this.gardens = gardens;
+        this.garden = garden;
     }
 
     @Override
@@ -39,7 +39,6 @@ public class Plant {
                 "plantName='" + plantName + '\'' +
                 ", plantType='" + plantType + '\'' +
                 ", plantDate=" + plantDate +
-                ", harvestDate=" + harvestDate +
                 '}';
     }
 }

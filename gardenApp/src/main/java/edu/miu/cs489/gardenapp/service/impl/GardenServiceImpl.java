@@ -13,10 +13,14 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class GardenServiceImpl implements GardenService {
     private final GardenRepository gardenRepository;
-    @Override
-    public List<Garden> findAll(List<Garden> garden) {
 
-        return gardenRepository.findAll();
+    @Override
+    public Optional<List<Garden>> findAll() {
+        List<Garden> gardens = gardenRepository.findAll();
+        if(gardens.isEmpty()){
+            return Optional.empty();
+        }
+        return Optional.of(gardens);
     }
 
     @Override
